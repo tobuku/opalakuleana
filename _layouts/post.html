@@ -2,28 +2,43 @@
 layout: default
 ---
 
-<article>
+<section class="page-hero">
+  <div class="container">
+    <span class="post-category">Oahu Junk Removal Tips</span>
     <h1>{{ page.title }}</h1>
-    <div class="post-meta">
-        <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%B %d, %Y' }}</time>
-        {% if page.author %} by <span>{{ page.author }}</span>{% endif %}
-    </div>
+    <p class="post-meta">
+      <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%B %d, %Y' }}</time>
+      {% if page.author %}&nbsp;·&nbsp;<span>{{ page.author }}</span>{% endif %}
+    </p>
+  </div>
+</section>
 
-    {{ content }}
-</article>
+<div class="blog-post">
+  <div class="container">
+    <div class="post-container">
+      <div class="post-body">
+        {{ content }}
+      </div>
 
-<hr style="margin: 3rem 0; border: none; border-top: 1px solid #eee;">
-
-<nav>
-    <h3>More Posts</h3>
-    <ul class="post-list">
-        {% for post in site.posts limit:5 %}
+      <nav class="post-nav" aria-label="More blog posts">
+        <h3>More from Our Blog</h3>
+        <ul class="post-nav-list">
+          {% for post in site.posts limit:4 %}
             {% if post.url != page.url %}
             <li>
-                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                <span class="post-meta">{{ post.date | date: '%B %d, %Y' }}</span>
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              <span style="font-size:0.8rem; color: var(--c-text-muted); margin-left:12px;">{{ post.date | date: '%B %d, %Y' }}</span>
             </li>
             {% endif %}
-        {% endfor %}
-    </ul>
-</nav>
+          {% endfor %}
+        </ul>
+      </nav>
+
+      <div style="margin-top:48px; padding:36px; background:var(--c-bg); border-radius:var(--r-md); text-align:center; border:1px solid var(--c-border);">
+        <p style="font-size:1.1rem; font-weight:600; color:var(--c-primary); margin-bottom:8px;">Ready to clear the clutter?</p>
+        <p style="color:var(--c-text-muted); margin-bottom:24px;">Get a free, no-obligation estimate from Ōpala Kuleana today.</p>
+        <a href="{{ site.baseurl }}/contact/" class="btn btn-primary">Get a Free Estimate</a>
+      </div>
+    </div>
+  </div>
+</div>

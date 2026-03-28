@@ -1,12 +1,15 @@
-# Jekyll Configuration for Ōpala Kuleana
+# ==========================================
+# ŌPALA KULEANA — JEKYLL CONFIGURATION
+# ==========================================
 
 # Site settings
 title: Ōpala Kuleana
-description: Junk Removal Services
-author: Ōpala Kuleana Team
+tagline: Oahu Junk Removal
+description: Professional junk removal service in Oahu, Hawaii. We remove furniture, appliances, construction debris, and more. Free estimates. Serving Ewa Beach, Honolulu, Kapolei, and all of Oahu.
+author: Ōpala Kuleana
 email: firedog3354@gmail.com
-url: https://tobuku.github.io/opalakuleana
-baseurl: /opalakuleana
+url: "https://opalakuleana.com"
+baseurl: ""
 repository: tobuku/opalakuleana
 
 # Build settings
@@ -21,8 +24,8 @@ exclude:
   - .gitignore
   - .sass-cache/
   - .jekyll-cache/
-  - gemfile
-  - gemfile.lock
+  - Gemfile
+  - Gemfile.lock
   - node_modules/
   - vendor/bundle/
   - vendor/cache/
@@ -49,15 +52,8 @@ defaults:
     values:
       layout: "page"
 
-# Pagination
-paginate: 10
-paginate_path: "/blog/page:num/"
-
 # SEO
 social:
   name: Ōpala Kuleana
   links:
-    - https://tobuku.github.io/opalakuleana
-
-# Google Analytics (optional)
-# google_analytics: UA-XXXXXXXXX-X
+    - https://opalakuleana.com

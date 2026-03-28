@@ -1,182 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-    <meta name="description" content="{{ page.description | default: site.description }}">
-    {% feed_meta %}
-    {% seo %}
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }} — Oahu Junk Removal</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  {% feed_meta %}
+  {% seo %}
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f9f9f9;
-        }
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
 
-        header {
-            background: #2c3e50;
-            color: white;
-            padding: 2rem 0;
-            margin-bottom: 2rem;
-        }
-
-        header h1 {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 2rem;
-        }
-
-        nav {
-            max-width: 1200px;
-            margin: 1rem auto 0;
-            padding: 0 2rem;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin-right: 2rem;
-            transition: opacity 0.3s;
-        }
-
-        nav a:hover {
-            opacity: 0.7;
-        }
-
-        main {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 2rem;
-            background: white;
-            min-height: 60vh;
-        }
-
-        footer {
-            background: #2c3e50;
-            color: white;
-            text-align: center;
-            padding: 2rem 0;
-            margin-top: 3rem;
-        }
-
-        h1, h2, h3, h4, h5, h6 {
-            margin: 1.5rem 0 1rem;
-            line-height: 1.2;
-        }
-
-        h1 { font-size: 2.5rem; }
-        h2 { font-size: 2rem; }
-        h3 { font-size: 1.5rem; }
-
-        p { margin-bottom: 1rem; }
-
-        a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            margin: 1rem 0;
-        }
-
-        .post-meta {
-            color: #666;
-            font-size: 0.9rem;
-            margin-bottom: 2rem;
-        }
-
-        .post-list {
-            list-style: none;
-            margin: 2rem 0;
-        }
-
-        .post-list li {
-            margin-bottom: 1.5rem;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 1rem;
-        }
-
-        .post-list a {
-            font-size: 1.25rem;
-            font-weight: bold;
-        }
-
-        blockquote {
-            border-left: 4px solid #0066cc;
-            padding-left: 1rem;
-            margin: 1rem 0;
-            color: #666;
-            font-style: italic;
-        }
-
-        code {
-            background: #f4f4f4;
-            padding: 0.2rem 0.4rem;
-            border-radius: 3px;
-            font-family: monospace;
-        }
-
-        pre {
-            background: #f4f4f4;
-            padding: 1rem;
-            border-radius: 3px;
-            overflow-x: auto;
-            margin: 1rem 0;
-        }
-
-        pre code {
-            background: none;
-            padding: 0;
-        }
-
-        @media (max-width: 768px) {
-            header, main, footer {
-                padding: 0 1rem;
-            }
-
-            h1 { font-size: 1.75rem; }
-            h2 { font-size: 1.5rem; }
-            h3 { font-size: 1.25rem; }
-
-            nav a {
-                display: block;
-                margin: 0.5rem 0;
-            }
-        }
-    </style>
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
 </head>
 <body>
-    <header>
-        <h1>{{ site.title }}</h1>
-        <nav>
-            <a href="{{ site.baseurl }}/">Home</a>
-            <a href="{{ site.baseurl }}/about/">About</a>
-            <a href="{{ site.baseurl }}/services/">Services</a>
-            <a href="{{ site.baseurl }}/blog/">Blog</a>
-            <a href="{{ site.baseurl }}/contact/">Contact</a>
-        </nav>
-    </header>
 
-    <main>
-        {{ content }}
-    </main>
+  <!-- ==================== NAV ==================== -->
+  <nav class="site-nav" id="site-nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="{{ site.baseurl }}/" class="nav-logo" aria-label="Ōpala Kuleana — Home">
+        <span class="nav-logo-name">Ōpala Kuleana</span>
+        <span class="nav-logo-tag">Oahu Junk Removal</span>
+      </a>
 
-    <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
-    </footer>
+      <ul class="nav-links" role="list">
+        <li><a href="{{ site.baseurl }}/services/"{% if page.url == '/services/' %} aria-current="page"{% endif %}>Services</a></li>
+        <li><a href="{{ site.baseurl }}/about/"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a></li>
+        <li><a href="{{ site.baseurl }}/faq/"{% if page.url == '/faq/' %} aria-current="page"{% endif %}>FAQ</a></li>
+        <li><a href="{{ site.baseurl }}/blog/"{% if page.url == '/blog/' %} aria-current="page"{% endif %}>Blog</a></li>
+        <li><a href="{{ site.baseurl }}/contact/"{% if page.url == '/contact/' %} aria-current="page"{% endif %}>Contact</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="{{ site.baseurl }}/contact/" class="btn btn-primary btn-sm">Get Free Estimate</a>
+        <button class="nav-hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-mobile">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="nav-mobile" id="nav-mobile" role="dialog" aria-modal="true" aria-label="Navigation menu">
+    <button class="nav-mobile-close" aria-label="Close navigation menu">&times;</button>
+    <a href="{{ site.baseurl }}/">Home</a>
+    <a href="{{ site.baseurl }}/services/">Services</a>
+    <a href="{{ site.baseurl }}/about/">About</a>
+    <a href="{{ site.baseurl }}/faq/">FAQ</a>
+    <a href="{{ site.baseurl }}/blog/">Blog</a>
+    <a href="{{ site.baseurl }}/contact/">Contact</a>
+    <a href="{{ site.baseurl }}/contact/" class="btn btn-primary btn-lg">Get Free Estimate</a>
+  </div>
+
+  <!-- ==================== CONTENT ==================== -->
+  {{ content }}
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="{{ site.baseurl }}/" class="footer-logo">Ōpala Kuleana</a>
+          <span class="footer-logo-tag">Oahu Junk Removal</span>
+          <p>Locally owned and operated junk removal service serving all of Oahu, Hawaii. We haul furniture, appliances, debris, and more — free estimates, no hidden fees.</p>
+          <a href="mailto:{{ site.email }}" class="footer-email">{{ site.email }}</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="{{ site.baseurl }}/services/">Furniture Removal</a></li>
+            <li><a href="{{ site.baseurl }}/services/">Appliance Removal</a></li>
+            <li><a href="{{ site.baseurl }}/services/">E-Waste &amp; Electronics</a></li>
+            <li><a href="{{ site.baseurl }}/services/">Construction Debris</a></li>
+            <li><a href="{{ site.baseurl }}/services/">Estate Cleanouts</a></li>
+            <li><a href="{{ site.baseurl }}/services/">Yard Waste</a></li>
+            <li><a href="{{ site.baseurl }}/services/"><strong style="color:rgba(255,255,255,0.8)">View All Services →</strong></a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Areas Served</h4>
+          <ul class="footer-areas">
+            <li>Ewa Beach</li>
+            <li>Kapolei</li>
+            <li>Pearl City</li>
+            <li>Waipahu</li>
+            <li>Aiea</li>
+            <li>Honolulu</li>
+            <li>Waikiki</li>
+            <li>Kalihi</li>
+            <li>Manoa</li>
+            <li>Downtown</li>
+            <li>Ala Moana</li>
+            <li>Makakilo</li>
+            <li>Waimalu</li>
+            <li>Moanalua</li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul class="footer-contact-list">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span>Mon–Fri, 8 AM – 5 PM<br>By appointment only</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>All of Oahu, Hawaii</span>
+            </li>
+          </ul>
+          <div style="margin-top:24px">
+            <a href="{{ site.baseurl }}/contact/" class="btn btn-primary btn-sm">Get Free Estimate</a>
+          </div>
+        </div>
+
+      </div><!-- /.footer-grid -->
+
+      <div class="footer-bottom">
+        <p>&copy; {{ site.time | date: '%Y' }} Ōpala Kuleana. All rights reserved. Oahu, Hawaii.</p>
+        <div class="footer-bottom-links">
+          <a href="{{ site.baseurl }}/about/">About</a>
+          <a href="{{ site.baseurl }}/contact/">Contact</a>
+          <a href="{{ site.baseurl }}/blog/">Blog</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- GSAP CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+
+  <!-- Main JS -->
+  <script src="{{ site.baseurl }}/assets/js/main.js" defer></script>
+
 </body>
 </html>
