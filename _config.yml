@@ -11,7 +11,6 @@ repository: tobuku/opalakuleana
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
