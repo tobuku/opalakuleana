@@ -1,0 +1,64 @@
+# Jekyll Configuration for Ōpala Kuleana
+
+# Site settings
+title: Ōpala Kuleana
+description: Junk Removal Services
+author: Ōpala Kuleana Team
+email: firedog3354@gmail.com
+url: https://tobuku.github.io/opalakuleana
+baseurl: /opalakuleana
+repository: tobuku/opalakuleana
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - .gitignore
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfile
+  - gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Ōpala Kuleana"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Pagination
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+# SEO
+social:
+  name: Ōpala Kuleana
+  links:
+    - https://tobuku.github.io/opalakuleana
+
+# Google Analytics (optional)
+# google_analytics: UA-XXXXXXXXX-X
