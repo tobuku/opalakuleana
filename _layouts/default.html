@@ -13,6 +13,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
 
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="{{ site.baseurl }}/assets/images/favicon.jpg">
+  <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/images/favicon.jpg">
+
   <!-- Main CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
 </head>
@@ -24,9 +28,8 @@
   <!-- ==================== NAV ==================== -->
   <nav class="site-nav" id="site-nav" role="navigation" aria-label="Main navigation">
     <div class="nav-inner">
-      <a href="{{ site.baseurl }}/" class="nav-logo" aria-label="Ōpala Kuleana — Home">
-        <span class="nav-logo-name">Ōpala Kuleana</span>
-        <span class="nav-logo-tag">Oahu Junk Removal</span>
+      <a href="{{ site.baseurl }}/" class="nav-logo" aria-label="Opala Kuleana — Home">
+        <img src="{{ site.baseurl }}/assets/images/opala-kuleana-logo4.jpg" alt="Opala Kuleana" class="nav-logo-img">
       </a>
 
       <ul class="nav-links" role="list">
@@ -69,8 +72,9 @@
       <div class="footer-grid">
 
         <div class="footer-brand">
-          <a href="{{ site.baseurl }}/" class="footer-logo">Ōpala Kuleana</a>
-          <span class="footer-logo-tag">Oahu Junk Removal</span>
+          <a href="{{ site.baseurl }}/" class="footer-logo">
+            <img src="{{ site.baseurl }}/assets/images/opala-kuleana-logo4.jpg" alt="Opala Kuleana" class="footer-logo-img">
+          </a>
           <p>Locally owned and operated junk removal service serving all of Oahu, Hawaii. We haul furniture, appliances, debris, and more — free estimates, no hidden fees.</p>
           {% if site.email %}<a href="mailto:{{ site.email }}" class="footer-email">{{ site.email }}</a>{% endif %}
         </div>
