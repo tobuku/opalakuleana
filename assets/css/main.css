@@ -1831,6 +1831,51 @@ textarea.form-control {
 }
 
 /* ==========================================
+   SCROLL PROGRESS BAR
+   ========================================== */
+#scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: linear-gradient(90deg, var(--c-accent) 0%, var(--c-gold) 100%);
+  z-index: 2000;
+  pointer-events: none;
+  transform-origin: left center;
+}
+
+/* ==========================================
+   PRICING CARD SHIMMER
+   ========================================== */
+@keyframes shimmer-glow {
+  0%, 100% {
+    border-color: rgba(255,255,255,0.16);
+    box-shadow: none;
+  }
+  50% {
+    border-color: rgba(232,98,58,0.4);
+    box-shadow: 0 0 32px rgba(232,98,58,0.18), inset 0 0 16px rgba(232,98,58,0.06);
+  }
+}
+
+.pricing-card {
+  animation: shimmer-glow 4s ease-in-out infinite;
+}
+
+/* ==========================================
+   HERO LABEL PULSE
+   ========================================== */
+@keyframes label-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(232,98,58,0); }
+  60% { box-shadow: 0 0 0 6px rgba(232,98,58,0.12); }
+}
+
+.hero-label {
+  animation: label-pulse 3s ease-in-out infinite;
+}
+
+/* ==========================================
    PREFERS-REDUCED-MOTION FALLBACK
    ========================================== */
 @media (prefers-reduced-motion: reduce) {
@@ -1849,4 +1894,8 @@ textarea.form-control {
   .blog-card:hover,
   .area-tag:hover,
   .service-detail-card:hover { transform: none; }
+
+  .pricing-card { animation: none; }
+  .hero-label   { animation: none; }
+  #scroll-progress { display: none; }
 }
