@@ -2,7 +2,7 @@
 layout: post
 title: "How to Handle an Estate Cleanout in Oahu: A Practical Guide"
 description: "Facing an estate cleanout in Oahu? This practical guide walks you through what to expect, how to prepare, and how to get it done efficiently with professional help."
-author: Ōpala Kuleana
+author: ʻŌpala Kuleana
 date: 2026-03-27
 ---
 
@@ -63,4 +63,4 @@ Dumpster rentals can work for smaller, self-managed cleanouts. But for a full es
 
 If you have an estate cleanout coming up in Oahu — or if you just need to clear out a property that's been accumulating for years — we're ready to help. We serve all of Oahu, from Ewa Beach to Downtown Honolulu, and every job starts with a free, no-obligation estimate.
 
-[Contact Ōpala Kuleana to schedule your free estimate →](/contact/)
+[Contact ʻŌpala Kuleana to schedule your free estimate →](/contact/)

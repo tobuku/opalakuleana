@@ -3,10 +3,10 @@
 # ==========================================
 
 # Site settings
-title: Ōpala Kuleana
+title: ʻŌpala Kuleana
 tagline: Oahu Junk Removal
 description: Professional junk removal service in Oahu, Hawaii. We remove furniture, appliances, construction debris, and more. Free estimates. Serving Ewa Beach, Honolulu, Kapolei, and all of Oahu.
-author: Ōpala Kuleana
+author: ʻŌpala Kuleana
 email:
 url: "https://opalakuleana.com"
 baseurl: ""
@@ -45,7 +45,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Ōpala Kuleana"
+      author: "ʻŌpala Kuleana"
   - scope:
       path: ""
       type: "pages"
@@ -54,6 +54,6 @@ defaults:
 
 # SEO
 social:
-  name: Ōpala Kuleana
+  name: ʻŌpala Kuleana
   links:
     - https://opalakuleana.com

@@ -1,15 +1,15 @@
 ---
 layout: page
-title: About Ōpala Kuleana
+title: About ʻŌpala Kuleana
 lead: We're a locally owned junk removal service built for Oahu — not a mainland franchise.
-description: Learn about Ōpala Kuleana, Oahu's locally owned junk removal service. We serve all of Oahu with honest pricing, free estimates, and knowledgeable local crews.
+description: Learn about ʻŌpala Kuleana, Oahu's locally owned junk removal service. We serve all of Oahu with honest pricing, free estimates, and knowledgeable local crews.
 ---
 
 ## Our Story
 
-Ōpala Kuleana was built on a simple belief: Oahu deserves a junk removal service that knows the island, respects the community, and takes disposal seriously.
+ʻŌpala Kuleana was built on a simple belief: Oahu deserves a junk removal service that knows the island, respects the community, and takes disposal seriously.
 
-The name says it all. *Ōpala* is Hawaiian for refuse or garbage. *Kuleana* means responsibility, right, and privilege — the kind of obligation you feel toward something you care about. Putting them together reflects how we approach this work: responsible removal for the place we call home.
+The name says it all. *ʻŌpala* is Hawaiian for refuse or garbage. *Kuleana* means responsibility, right, and privilege — the kind of obligation you feel toward something you care about. Putting them together reflects how we approach this work: responsible removal for the place we call home.
 
 ## Why We're Different
 

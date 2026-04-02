@@ -440,6 +440,30 @@
       });
     }
 
+    /* Logo background marks — slow fade + drift */
+    gsap.utils.toArray('.logo-bg-mark').forEach(function (mark) {
+      gsap.from(mark, {
+        opacity: 0,
+        scale: 0.88,
+        duration: 1.8,
+        ease: 'power2.out',
+        scrollTrigger: {
+          trigger: mark,
+          start: 'top 90%',
+          once: true
+        }
+      });
+      /* Slow continuous drift */
+      gsap.to(mark, {
+        y: -18,
+        duration: 8,
+        ease: 'sine.inOut',
+        yoyo: true,
+        repeat: -1,
+        delay: Math.random() * 2
+      });
+    });
+
     /* Page hero (inner pages) */
     var pageHero = document.querySelector('.page-hero');
     if (pageHero) {

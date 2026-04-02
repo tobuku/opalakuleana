@@ -2,7 +2,7 @@
 layout: post
 title: "Junk Removal in Oahu: What Every Homeowner Should Know"
 description: "A complete guide to junk removal in Oahu, Hawaii. Learn about costs, what to expect, and how to find a reliable local service for your home or business."
-author: Ōpala Kuleana
+author: ʻŌpala Kuleana
 date: 2026-03-27
 ---
 
@@ -32,7 +32,7 @@ What they generally **cannot** haul: paint, hazardous chemicals, asbestos, propa
 
 ## Why Hiring a Local Service Matters in Hawaii
 
-National junk removal franchises operate across the country. Local services like Ōpala Kuleana operate specifically in Hawaii — and that distinction matters.
+National junk removal franchises operate across the country. Local services like ʻŌpala Kuleana operate specifically in Hawaii — and that distinction matters.
 
 A local provider understands Hawaii's specific waste disposal requirements. They know which items require special handling, what the County's rules are, and why responsible disposal matters on an island with limited landfill space. They also understand access challenges specific to Oahu — narrow driveways, elevated properties, and HOA regulations in certain neighborhoods.
 
@@ -59,6 +59,6 @@ Look for a service that:
 - Responds promptly and communicates clearly about scheduling
 - Is locally owned — you're hiring your neighbors, not a call center 1,500 miles away
 
-At Ōpala Kuleana, we meet all of these. We serve all of Oahu from Ewa Beach to Downtown Honolulu, and every job starts with a free, no-obligation on-site estimate.
+At ʻŌpala Kuleana, we meet all of these. We serve all of Oahu from Ewa Beach to Downtown Honolulu, and every job starts with a free, no-obligation on-site estimate.
 
 [Contact us to schedule your free estimate →](/contact/)

@@ -2,7 +2,7 @@
 layout: post
 title: "Hawaii E-Waste Disposal: What Happens to Your Old Electronics"
 description: "Hawaii has strict e-waste disposal laws. Learn what qualifies as e-waste, how to dispose of electronics properly in Oahu, and why it matters for the island's environment."
-author: Ōpala Kuleana
+author: ʻŌpala Kuleana
 date: 2026-03-27
 ---
 
@@ -49,7 +49,7 @@ The goal is to divert as much as possible from landfills while containing the ha
 - **Don't give broken electronics to random buyers** — they may end up in informal overseas markets with poor safety standards.
 - **Don't stockpile indefinitely.** Old electronics take up space and can leak battery acid or degrade in ways that create safety hazards.
 
-## How Ōpala Kuleana Handles E-Waste
+## How ʻŌpala Kuleana Handles E-Waste
 
 When we remove electronics as part of a junk removal job in Oahu, we sort e-waste separately and route it through appropriate disposal channels. We take Hawaii's disposal regulations seriously — it's part of what it means to do this work responsibly on our island.
 
