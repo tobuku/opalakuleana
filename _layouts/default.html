@@ -34,6 +34,7 @@
 
       <ul class="nav-links" role="list">
         <li><a href="{{ site.baseurl }}/services/"{% if page.url == '/services/' %} aria-current="page"{% endif %}>Services</a></li>
+        <li><a href="{{ site.baseurl }}/service-areas/"{% if page.url contains '/service-areas/' %} aria-current="page"{% endif %}>Service Areas</a></li>
         <li><a href="{{ site.baseurl }}/about/"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a></li>
         <li><a href="{{ site.baseurl }}/faq/"{% if page.url == '/faq/' %} aria-current="page"{% endif %}>FAQ</a></li>
         <li><a href="{{ site.baseurl }}/blog/"{% if page.url == '/blog/' %} aria-current="page"{% endif %}>Blog</a></li>
@@ -56,6 +57,7 @@
     <button class="nav-mobile-close" aria-label="Close navigation menu">&times;</button>
     <a href="{{ site.baseurl }}/">Home</a>
     <a href="{{ site.baseurl }}/services/">Services</a>
+    <a href="{{ site.baseurl }}/service-areas/">Service Areas</a>
     <a href="{{ site.baseurl }}/about/">About</a>
     <a href="{{ site.baseurl }}/faq/">FAQ</a>
     <a href="{{ site.baseurl }}/blog/">Blog</a>
