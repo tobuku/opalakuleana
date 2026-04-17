@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About ʻŌpala Kuleana
-lead: We're a locally owned junk removal service built for Oahu — not a mainland franchise.
+lead: We're a locally owned junk removal service built for Oahu not a mainland franchise.
 description: Learn about ʻŌpala Kuleana, Oahu's locally owned junk removal service. We serve all of Oahu with honest pricing, free estimates, and knowledgeable local crews.
 ---
 
@@ -9,7 +9,7 @@ description: Learn about ʻŌpala Kuleana, Oahu's locally owned junk removal ser
 
 ʻŌpala Kuleana was built on a simple belief: Oahu deserves a junk removal service that knows the island, respects the community, and takes disposal seriously.
 
-The name says it all. *ʻŌpala* is Hawaiian for refuse or garbage. *Kuleana* means responsibility, right, and privilege — the kind of obligation you feel toward something you care about. Putting them together reflects how we approach this work: responsible removal for the place we call home.
+The name says it all. *ʻŌpala* is Hawaiian for refuse or garbage. *Kuleana* means responsibility, right, and privilege the kind of obligation you feel toward something you care about. Putting them together reflects how we approach this work: responsible removal for the place we call home.
 
 ## Why We're Different
 
@@ -26,8 +26,8 @@ Our drivers hold Type 3 and CDL licenses, and we're committed to handling every 
 
 ## Our Service Area
 
-We serve all of Oahu — from the west side neighborhoods of Ewa Beach, Kapolei, and Makakilo to Honolulu, Waikiki, and everything in between. If you're on the island, we come to you.
+We serve all of Oahu from the west side neighborhoods of Ewa Beach, Kapolei, and Makakilo to Honolulu, Waikiki, and everything in between. If you're on the island, we come to you.
 
 ## Ready to Work Together?
 
-[Get a Free Estimate](/contact/) — no pressure, no commitment. We'll come to you, assess the job, and give you a straight answer on the price.
+[Get a Free Estimate](/contact/) no pressure, no commitment. We'll come to you, assess the job, and give you a straight answer on the price.
