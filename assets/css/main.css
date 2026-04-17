@@ -557,7 +557,7 @@ button { font-family: var(--ff-sans); }
   content: '';
   position: absolute;
   inset: 0;
-  background: url('/assets/images/ok-logo.jpg') center / cover no-repeat;
+  background: url('/assets/images/ok-logo-2D.png') center / cover no-repeat;
   opacity: 0.08;
   filter: blur(2px) saturate(0);
   z-index: 0;
