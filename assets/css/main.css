@@ -478,6 +478,23 @@ button { font-family: var(--ff-sans); }
   pointer-events: none;
 }
 
+.hero-bg-logo {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  pointer-events: none;
+}
+.hero-bg-logo img {
+  width: clamp(320px, 55%, 680px);
+  height: auto;
+  opacity: 0.13;
+  border-radius: 32px;
+  display: block;
+}
+
 .hero-inner {
   position: relative;
   z-index: 2;
