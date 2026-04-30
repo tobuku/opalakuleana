@@ -351,14 +351,27 @@ button { font-family: var(--ff-sans); }
 }
 
 .nav-phone {
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: var(--c-primary);
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--c-primary-dark);
+  background: #ffffff;
   text-decoration: none;
   white-space: nowrap;
   letter-spacing: 0.01em;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 2px solid #ffffff;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
 }
-.nav-phone:hover { color: var(--c-accent-dark); text-decoration: underline; }
+.nav-phone:hover {
+  background: var(--c-accent);
+  border-color: var(--c-accent);
+  color: #ffffff;
+  text-decoration: none;
+}
 
 .nav-hamburger {
   display: none;
