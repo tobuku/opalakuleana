@@ -97,34 +97,62 @@
   });
 
   /* ------------------------------------------
-     HERO FLOATING ICONS (trucks, trash, boxes)
+     HERO TRUCK SCENE ANIMATION
   ------------------------------------------ */
-  function initHeroFloaters() {
-    var floaters = document.querySelectorAll('.hero-floater');
-    if (!floaters.length) return;
+  function initHeroScene() {
+    var truck  = document.getElementById('scene-truck');
+    var bed    = document.getElementById('truck-bed');
+    var tBox   = document.getElementById('t-box');
+    var tBag   = document.getElementById('t-bag');
+    var tChair = document.getElementById('t-chair');
+    var wheels = ['wf','wra','wrb'].map(function(id){
+      return document.getElementById(id);
+    }).filter(Boolean);
 
-    var configs = [
-      { y: 28,  x:  12, rot:  8,  dur: 9  },
-      { y: -22, x: -10, rot: -7,  dur: 11 },
-      { y: 18,  x:  -8, rot:  5,  dur: 13 },
-      { y: -26, x:  14, rot: -9,  dur: 10 },
-      { y: 24,  x: -13, rot:  6,  dur: 12 },
-      { y: -16, x:   9, rot: -4,  dur: 8  }
-    ];
+    if (!truck || !bed) return;
 
-    floaters.forEach(function (el, i) {
-      var c = configs[i % configs.length];
-      gsap.to(el, {
-        y: c.y,
-        x: c.x,
-        rotation: c.rot,
-        duration: c.dur,
-        repeat: -1,
-        yoyo: true,
-        ease: 'sine.inOut',
-        delay: i * 1.1
+    /* Bed pivot: front-bottom of the bed rectangle */
+    gsap.set(bed, { transformOrigin: '0% 100%' });
+
+    function runScene() {
+      /* Reset all positions */
+      gsap.set(truck,  { x: 1450, y: 0 });
+      gsap.set(bed,    { rotation: 0 });
+      gsap.set(tBox,   { opacity: 0, x: 310, y: -55, rotation: 0 });
+      gsap.set(tBag,   { opacity: 0, x: -80, y: 80,  rotation: 0 });
+      gsap.set(tChair, { opacity: 0, x: 650, y: 80,  rotation: 0 });
+      gsap.set(wheels, { rotation: 0 });
+
+      var tl = gsap.timeline({
+        onComplete: function () { gsap.delayedCall(2.5, runScene); }
       });
-    });
+
+      /* 1 — Drive in from right, wheels spinning */
+      tl.to(truck,  { x: 280,  duration: 3.6, ease: 'power2.out' }, 0);
+      tl.to(wheels, { rotation: 740, duration: 3.6, ease: 'none' }, 0);
+
+      /* 2 — Bounce to a stop */
+      tl.to(truck, { y: 8,  duration: 0.1, ease: 'power2.out' }, 3.6);
+      tl.to(truck, { y: 0,  duration: 0.3, ease: 'bounce.out' }, 3.7);
+
+      /* 3 — Bed raises */
+      tl.to(bed, { rotation: -40, duration: 1.8, ease: 'power2.inOut' }, 4.3);
+
+      /* 4 — Trash items fly in from different directions */
+      tl.to(tBox,   { opacity: 1, x: 310, y: 80, rotation: -18, duration: 0.7, ease: 'power3.in' }, 4.8);
+      tl.to(tBag,   { opacity: 1, x: 370, y: 90, rotation:  25, duration: 0.75, ease: 'power2.in' }, 5.2);
+      tl.to(tChair, { opacity: 1, x: 250, y: 85, rotation: -10, duration: 0.8,  ease: 'power3.in' }, 5.5);
+
+      /* 5 — Bed lowers */
+      tl.to(bed, { rotation: 0, duration: 1.5, ease: 'power2.inOut' }, 6.8);
+
+      /* 6 — Drives off left, wheels spinning */
+      tl.to(truck,  { x: -850, duration: 2.8, ease: 'power2.in'  }, 8.6);
+      tl.to(wheels, { rotation: 1340, duration: 2.8, ease: 'none' }, 8.6);
+      tl.to([tBox, tBag, tChair], { opacity: 0, duration: 0.4 }, 8.6);
+    }
+
+    runScene();
   }
 
   /* ------------------------------------------
@@ -142,7 +170,7 @@
       initHeroAnimation();
       initHeroFloat();
       initHeroParallax();
-      initHeroFloaters();
+      initHeroScene();
       initScrollReveals();
       initCounters();
     }
