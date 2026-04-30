@@ -135,15 +135,15 @@
       tl.to(truck, { y: 8,  duration: 0.1, ease: 'power2.out' }, 3.6);
       tl.to(truck, { y: 0,  duration: 0.3, ease: 'bounce.out' }, 3.7);
 
-      /* 3 — Bed raises */
-      tl.to(bed, { rotation: -40, duration: 1.8, ease: 'power2.inOut' }, 4.3);
+      /* 3 — Bed raises (pivot front-bottom, rear/tailgate lifts right) */
+      tl.to(bed, { rotation: 40, duration: 1.8, ease: 'power2.inOut' }, 4.3);
 
       /* 4 — Trash items fly in from different directions */
       tl.to(tBox,   { opacity: 1, x: 310, y: 80, rotation: -18, duration: 0.7, ease: 'power3.in' }, 4.8);
       tl.to(tBag,   { opacity: 1, x: 370, y: 90, rotation:  25, duration: 0.75, ease: 'power2.in' }, 5.2);
       tl.to(tChair, { opacity: 1, x: 250, y: 85, rotation: -10, duration: 0.8,  ease: 'power3.in' }, 5.5);
 
-      /* 5 — Bed lowers */
+      /* 5 — Bed lowers back to flat */
       tl.to(bed, { rotation: 0, duration: 1.5, ease: 'power2.inOut' }, 6.8);
 
       /* 6 — Drives off left, wheels spinning */
