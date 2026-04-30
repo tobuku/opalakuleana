@@ -97,6 +97,37 @@
   });
 
   /* ------------------------------------------
+     HERO FLOATING ICONS (trucks, trash, boxes)
+  ------------------------------------------ */
+  function initHeroFloaters() {
+    var floaters = document.querySelectorAll('.hero-floater');
+    if (!floaters.length) return;
+
+    var configs = [
+      { y: 28,  x:  12, rot:  8,  dur: 9  },
+      { y: -22, x: -10, rot: -7,  dur: 11 },
+      { y: 18,  x:  -8, rot:  5,  dur: 13 },
+      { y: -26, x:  14, rot: -9,  dur: 10 },
+      { y: 24,  x: -13, rot:  6,  dur: 12 },
+      { y: -16, x:   9, rot: -4,  dur: 8  }
+    ];
+
+    floaters.forEach(function (el, i) {
+      var c = configs[i % configs.length];
+      gsap.to(el, {
+        y: c.y,
+        x: c.x,
+        rotation: c.rot,
+        duration: c.dur,
+        repeat: -1,
+        yoyo: true,
+        ease: 'sine.inOut',
+        delay: i * 1.1
+      });
+    });
+  }
+
+  /* ------------------------------------------
      GSAP ANIMATIONS
   ------------------------------------------ */
   function initGSAP() {
@@ -111,6 +142,7 @@
       initHeroAnimation();
       initHeroFloat();
       initHeroParallax();
+      initHeroFloaters();
       initScrollReveals();
       initCounters();
     }
