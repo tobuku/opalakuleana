@@ -105,14 +105,11 @@
     var tBox   = document.getElementById('t-box');
     var tBag   = document.getElementById('t-bag');
     var tChair = document.getElementById('t-chair');
-    var wheels = ['wf','wra','wrb'].map(function(id){
-      return document.getElementById(id);
-    }).filter(Boolean);
-
     if (!truck || !bed) return;
 
-    /* Bed pivot: front-bottom of the bed rectangle */
-    gsap.set(bed, { transformOrigin: '0% 100%' });
+    /* Bed pivot: rear-bottom corner (right side, near tailgate/axle)
+       CW rotation lifts the front of the bed up — matches reference image */
+    gsap.set(bed, { transformOrigin: '100% 100%' });
 
     function runScene() {
       /* Reset all positions */
@@ -121,21 +118,19 @@
       gsap.set(tBox,   { opacity: 0, x: 310, y: -55, rotation: 0 });
       gsap.set(tBag,   { opacity: 0, x: -80, y: 80,  rotation: 0 });
       gsap.set(tChair, { opacity: 0, x: 650, y: 80,  rotation: 0 });
-      gsap.set(wheels, { rotation: 0 });
 
       var tl = gsap.timeline({
         onComplete: function () { gsap.delayedCall(2.5, runScene); }
       });
 
-      /* 1 — Drive in from right, wheels spinning */
-      tl.to(truck,  { x: 280,  duration: 3.6, ease: 'power2.out' }, 0);
-      tl.to(wheels, { rotation: 740, duration: 3.6, ease: 'none' }, 0);
+      /* 1 — Drive in from right (wheels are static children, move with truck) */
+      tl.to(truck, { x: 280, duration: 3.6, ease: 'power2.out' }, 0);
 
       /* 2 — Bounce to a stop */
       tl.to(truck, { y: 8,  duration: 0.1, ease: 'power2.out' }, 3.6);
       tl.to(truck, { y: 0,  duration: 0.3, ease: 'bounce.out' }, 3.7);
 
-      /* 3 — Bed raises (pivot front-bottom, rear/tailgate lifts right) */
+      /* 3 — Bed raises: pivot rear-bottom, front lifts up (CW) */
       tl.to(bed, { rotation: 40, duration: 1.8, ease: 'power2.inOut' }, 4.3);
 
       /* 4 — Trash items fly in from different directions */
@@ -146,9 +141,8 @@
       /* 5 — Bed lowers back to flat */
       tl.to(bed, { rotation: 0, duration: 1.5, ease: 'power2.inOut' }, 6.8);
 
-      /* 6 — Drives off left, wheels spinning */
-      tl.to(truck,  { x: -850, duration: 2.8, ease: 'power2.in'  }, 8.6);
-      tl.to(wheels, { rotation: 1340, duration: 2.8, ease: 'none' }, 8.6);
+      /* 6 — Drives off left */
+      tl.to(truck, { x: -850, duration: 2.8, ease: 'power2.in' }, 8.6);
       tl.to([tBox, tBag, tChair], { opacity: 0, duration: 0.4 }, 8.6);
     }
 
