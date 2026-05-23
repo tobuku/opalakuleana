@@ -882,6 +882,15 @@ button { font-family: var(--ff-sans); }
 
 .why-check svg { color: var(--c-accent); }
 
+.truck-photo {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+  object-fit: cover;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.10);
+}
+
 /* Stats Grid */
 .stats-grid {
   display: grid;
