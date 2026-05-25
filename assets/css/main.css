@@ -1896,6 +1896,13 @@ textarea.form-control {
   .hero-inner { grid-template-columns: 1fr; }
   .hero-card  { display: none; }
 
+  /* Truck scene: anchor to viewport bottom, not hero bottom,
+     so it stays visible when mobile hero grows taller than 100vh */
+  .hero-scene {
+    bottom: auto;
+    top: calc(100vh - 232px);
+  }
+
   .process-steps {
     grid-template-columns: 1fr;
     gap: 28px;
