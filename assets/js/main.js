@@ -97,59 +97,6 @@
   });
 
   /* ------------------------------------------
-     HERO TRUCK SCENE ANIMATION
-  ------------------------------------------ */
-  function initHeroScene() {
-    var truck  = document.getElementById('scene-truck');
-    var bed    = document.getElementById('truck-bed');
-    var tBox   = document.getElementById('t-box');
-    var tBag   = document.getElementById('t-bag');
-    var tChair = document.getElementById('t-chair');
-    if (!truck || !bed) return;
-
-    /* Bed pivot: rear-bottom corner (right side, near tailgate/axle)
-       CW rotation lifts the front of the bed up — matches reference image */
-    gsap.set(bed, { transformOrigin: '100% 100%' });
-
-    function runScene() {
-      /* Reset all positions */
-      gsap.set(truck,  { x: 1450, y: 0 });
-      gsap.set(bed,    { rotation: 0 });
-      gsap.set(tBox,   { opacity: 0, x: 310, y: -55, rotation: 0 });
-      gsap.set(tBag,   { opacity: 0, x: -80, y: 80,  rotation: 0 });
-      gsap.set(tChair, { opacity: 0, x: 650, y: 80,  rotation: 0 });
-
-      var tl = gsap.timeline({
-        onComplete: function () { gsap.delayedCall(2.5, runScene); }
-      });
-
-      /* 1 — Drive in from right (wheels are static children, move with truck) */
-      tl.to(truck, { x: 280, duration: 3.6, ease: 'power2.out' }, 0);
-
-      /* 2 — Bounce to a stop */
-      tl.to(truck, { y: 8,  duration: 0.1, ease: 'power2.out' }, 3.6);
-      tl.to(truck, { y: 0,  duration: 0.3, ease: 'bounce.out' }, 3.7);
-
-      /* 3 — Bed raises: pivot rear-bottom, front lifts up (CW) */
-      tl.to(bed, { rotation: 40, duration: 1.8, ease: 'power2.inOut' }, 4.3);
-
-      /* 4 — Trash items fly in from different directions */
-      tl.to(tBox,   { opacity: 1, x: 310, y: 80, rotation: -18, duration: 0.7, ease: 'power3.in' }, 4.8);
-      tl.to(tBag,   { opacity: 1, x: 370, y: 90, rotation:  25, duration: 0.75, ease: 'power2.in' }, 5.2);
-      tl.to(tChair, { opacity: 1, x: 250, y: 85, rotation: -10, duration: 0.8,  ease: 'power3.in' }, 5.5);
-
-      /* 5 — Bed lowers back to flat */
-      tl.to(bed, { rotation: 0, duration: 1.5, ease: 'power2.inOut' }, 6.8);
-
-      /* 6 — Drives off left */
-      tl.to(truck, { x: -850, duration: 2.8, ease: 'power2.in' }, 8.6);
-      tl.to([tBox, tBag, tChair], { opacity: 0, duration: 0.4 }, 8.6);
-    }
-
-    runScene();
-  }
-
-  /* ------------------------------------------
      GSAP ANIMATIONS
   ------------------------------------------ */
   function initGSAP() {
@@ -164,7 +111,6 @@
       initHeroAnimation();
       initHeroFloat();
       initHeroParallax();
-      initHeroScene();
       initScrollReveals();
       initCounters();
     }
