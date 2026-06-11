@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About ʻŌpala Kuleana
-lead: We're a locally owned junk removal service built for Oahu not a mainland franchise.
-description: Learn about ʻŌpala Kuleana, Oahu's locally owned junk removal service. We serve all of Oahu with honest pricing, free estimates, and knowledgeable local crews.
+title: "About ʻŌpala Kuleana — Locally Owned Junk Removal, Oahu"
+lead: We're a locally owned junk removal service built for Oahu — not a mainland franchise.
+description: "ʻŌpala Kuleana is Oahu's locally owned junk removal service. CDL-licensed crews, honest pricing, free estimates, and responsible disposal — not a mainland franchise."
 ---
 
 ## Our Story
