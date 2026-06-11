@@ -556,6 +556,15 @@ button { font-family: var(--ff-sans); }
 
 .hero-title-line { display: block; }
 
+.hero-tagline {
+  font-size: clamp(1.05rem, 2vw, 1.25rem);
+  font-style: italic;
+  font-weight: 500;
+  color: var(--c-gold);
+  letter-spacing: 0.02em;
+  margin-bottom: 14px;
+}
+
 .hero-subtitle {
   font-size: clamp(1rem, 1.8vw, 1.15rem);
   color: rgba(255,255,255,0.78);
@@ -1430,6 +1439,14 @@ textarea.form-control {
 .footer-logo {
   display: inline-block;
   text-decoration: none;
+}
+
+.footer-tagline {
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 600;
+  color: var(--c-gold);
+  margin-bottom: 10px;
 }
 
 .footer-brand p {

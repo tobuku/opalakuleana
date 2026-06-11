@@ -150,6 +150,7 @@
   function initHeroAnimation() {
     var heroLabel   = document.querySelector('.hero-label');
     var heroLines   = document.querySelectorAll('.hero-title-line');
+    var heroTagline = document.querySelector('.hero-tagline');
     var heroSub     = document.querySelector('.hero-subtitle');
     var heroActions = document.querySelector('.hero-actions');
     var trustItems  = document.querySelectorAll('.trust-item');
@@ -174,6 +175,10 @@
         stagger: 0.15,
         ease: 'power3.out'
       }, '-=0.25');
+    }
+
+    if (heroTagline) {
+      tl.from(heroTagline, { y: 20, opacity: 0, duration: 0.5, ease: 'power2.out' }, '-=0.35');
     }
 
     if (heroSub) {
