@@ -1138,6 +1138,7 @@ button { font-family: var(--ff-sans); }
   font-size: 0.875rem;
   font-weight: 500;
   color: var(--c-text);
+  text-decoration: none;
   transition: all 0.2s;
 }
 
@@ -1490,6 +1491,16 @@ textarea.form-control {
   content: '·';
   margin-left: 6px;
   color: rgba(255,255,255,0.22);
+}
+
+.footer-areas a {
+  color: rgba(255,255,255,0.5);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-areas a:hover {
+  color: var(--c-accent);
 }
 
 .footer-contact-list {
