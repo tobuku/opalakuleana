@@ -1578,6 +1578,13 @@ textarea.form-control {
 
 .footer-bottom-links a:hover { color: rgba(255,255,255,0.75); }
 
+.footer-alliance a {
+  color: rgba(255,255,255,0.5);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-alliance a:hover { color: rgba(255,255,255,0.75); }
+
 /* ==========================================
    PAGE LAYOUT (inner pages)
    ========================================== */
