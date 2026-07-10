@@ -11,6 +11,16 @@ description: "ʻŌpala Kuleana is Oahu's locally owned junk removal service. CDL
 
 The name says it all. *ʻŌpala* is Hawaiian for refuse or garbage. *Kuleana* means responsibility, right, and privilege the kind of obligation you feel toward something you care about. Putting them together reflects how we approach this work: responsible removal for the place we call home.
 
+We started because we saw a gap. National franchises come and go, but they don't understand Hawaii's unique waste regulations, the cost of island logistics, or what it means to work in someone's home with the respect they deserve. We wanted to build something rooted here - a service run by people who live on this island, raise families here, and feel a genuine responsibility to keep Oahu clean for the next generation.
+
+## Our Commitment to Oahu
+
+Living on an island means every piece of waste matters. Landfill space is limited, and what ends up in the ground stays in the ground - right here, in our backyard.
+
+That is why we take responsible disposal seriously. We sort every load and separate items that can be donated to local organizations like Habitat for Humanity ReStore and Salvation Army. Electronics and e-waste are handled in compliance with Hawaii's strict disposal regulations, keeping toxic materials out of our soil and water. When recycling is an option, we take it.
+
+We are not perfect, but we are committed to doing better with every job.
+
 ## Why We're Different
 
 Most large junk removal companies are national franchises that follow a one-size-fits-all model. We're not that. We're from here. We understand Hawaii's unique waste management rules, the importance of responsible e-waste disposal, and what it means to be a neighbor doing work in someone's home or business.
@@ -26,7 +36,7 @@ Our drivers hold Type 3 and CDL licenses, and we're committed to handling every 
 
 ## Our Service Area
 
-We serve all of Oahu from the west side neighborhoods of Ewa Beach, Kapolei, and Makakilo to Honolulu, Waikiki, and everything in between. If you're on the island, we come to you.
+We serve all of Oahu from the west side neighborhoods of Ewa Beach, Kapolei, and Makakilo to Honolulu, Waikiki, and everything in between. Windward side, North Shore, Central Oahu - if you're on the island, we come to you.
 
 ## Ready to Work Together?
 
