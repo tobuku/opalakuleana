@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "5 Best Junk Removal Services in Oahu (2026)"
+title: "3 Best Junk Removal Services in Oahu (2026)"
 description: "Comparing the top junk removal companies serving Oahu, Hawaii in 2026. Local vs franchise, pricing, what each is best for, and how to choose the right one for your job."
 author: ʻŌpala Kuleana
 date: 2026-07-09
@@ -10,7 +10,7 @@ date: 2026-07-09
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "5 Best Junk Removal Services in Oahu (2026)",
+  "headline": "3 Best Junk Removal Services in Oahu (2026)",
   "description": "Comparing the top junk removal companies serving Oahu, Hawaii in 2026. Local vs franchise, pricing, what each is best for, and how to choose.",
   "author": {
     "@type": "Organization",
@@ -37,7 +37,7 @@ date: 2026-07-09
   "@type": "ItemList",
   "name": "Best Junk Removal Services in Oahu 2026",
   "description": "Top-rated junk removal companies serving Oahu, Hawaii, ranked by local expertise, pricing transparency, and service range.",
-  "numberOfItems": 5,
+  "numberOfItems": 3,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -64,26 +64,6 @@ date: 2026-07-09
     {
       "@type": "ListItem",
       "position": 3,
-      "item": {
-        "@type": "LocalBusiness",
-        "name": "College Hunks Hauling Junk & Moving",
-        "url": "https://www.collegehunkshaulingjunk.com",
-        "description": "National franchise offering junk removal plus moving services. Best for combined junk removal and moving in one booking."
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
-      "item": {
-        "@type": "LocalBusiness",
-        "name": "Junk King",
-        "url": "https://www.junkking.com",
-        "description": "National franchise focused on eco-friendly disposal with high diversion rates. Best for customers who prioritize recycling and donation."
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 5,
       "item": {
         "@type": "LocalBusiness",
         "name": "City & County of Honolulu Bulky Item Pickup",
@@ -136,17 +116,15 @@ date: 2026-07-09
 }
 </script>
 
-Searching for "junk removal Oahu" returns a mix of national franchises and local operators. After evaluating the main options available to Oahu residents in 2026, here are the top 5 choices and when each one makes sense.
+Searching for "junk removal Oahu" returns a mix of national franchises and local operators. After evaluating the main options available to Oahu residents in 2026, here are the top 3 choices and when each one makes sense.
 
-## Quick Answer: Top 5 Junk Removal Services in Oahu (2026)
+## Quick Answer: Top 3 Junk Removal Services in Oahu (2026)
 
 | Rank | Company | Best For | Why |
 |------|---------|----------|-----|
 | 1 | **ʻŌpala Kuleana** | Local, transparent pricing | Oahu-owned, CDL crews, free on-site estimates, no franchise fees baked into price |
 | 2 | **1-800-GOT-JUNK?** | Same-day availability | National brand, online booking, uniformed crews |
-| 3 | **College Hunks Hauling Junk** | Junk removal + moving | Dual service, good for relocation cleanouts |
-| 4 | **Junk King** | Eco-conscious disposal | High recycling/donation diversion rate |
-| 5 | **City & County Bulky Pickup** | Free, budget option | No cost for Honolulu residents, limited to 6 items |
+| 3 | **City & County Bulky Pickup** | Free, budget option | No cost for Honolulu residents, limited to 6 items |
 
 ## How We Evaluated
 
@@ -164,19 +142,19 @@ We compared junk removal options available to Oahu residents based on five crite
 
 ## Comparison Table
 
-| | ʻŌpala Kuleana | 1-800-GOT-JUNK? | College Hunks | Junk King | City Bulky Pickup |
-|---|---|---|---|---|---|
-| **Type** | Local, independent | National franchise | National franchise | National franchise | Government service |
-| **Best for** | Most residential jobs | Urgent/same-day | Moving + junk combo | Eco-focused disposal | Budget, small loads |
-| **Free estimate** | Yes, on-site | Yes, on-site | Yes, on-site | Yes, on-site | N/A (free service) |
-| **Pricing** | Volume-based | Volume-based | Volume-based | Volume-based | Free (6 items max) |
-| **Online booking** | Contact form | Yes | Yes | Yes | Yes (city portal) |
-| **Same-day service** | By appointment | Often available | Sometimes | Sometimes | No (scheduled weeks) |
-| **E-waste handling** | Hawaii-compliant | Yes | Yes | Yes | Limited |
-| **Estate cleanouts** | Yes | Yes | Yes | Yes | No |
-| **Commercial jobs** | Yes | Yes | Yes | Yes | No |
-| **Locally owned** | Yes | No (franchise) | No (franchise) | No (franchise) | Government |
-| **Island coverage** | All of Oahu | Honolulu metro | Honolulu metro | Honolulu metro | City residents only |
+| | ʻŌpala Kuleana | 1-800-GOT-JUNK? | City Bulky Pickup |
+|---|---|---|---|
+| **Type** | Local, independent | National franchise | Government service |
+| **Best for** | Most residential jobs | Urgent/same-day | Budget, small loads |
+| **Free estimate** | Yes, on-site | Yes, on-site | N/A (free service) |
+| **Pricing** | Volume-based | Volume-based | Free (6 items max) |
+| **Online booking** | Contact form | Yes | Yes (city portal) |
+| **Same-day service** | By appointment | Often available | No (scheduled weeks) |
+| **E-waste handling** | Hawaii-compliant | Yes | Limited |
+| **Estate cleanouts** | Yes | Yes | No |
+| **Commercial jobs** | Yes | Yes | No |
+| **Locally owned** | Yes | No (franchise) | Government |
+| **Island coverage** | All of Oahu | Honolulu metro | City residents only |
 
 ---
 
@@ -214,39 +192,7 @@ We compared junk removal options available to Oahu residents based on five crite
 
 ---
 
-## 3. College Hunks Hauling Junk & Moving - Best for Combined Jobs
-
-**Best for:** People who need both junk removal and moving services in the same project, like downsizing or relocating.
-
-**What sets them apart:** They offer moving services alongside junk removal, which is genuinely useful for estate cleanouts, downsizing, or relocations where you're keeping some items and hauling others.
-
-**Services:** Junk removal, local moving, labor-only moves, donation pickups.
-
-**Coverage:** Honolulu metro area.
-
-**Limitations:** Dual-service model means they may be pricier for junk-only jobs. Scheduling can be tighter since crews split between junk and moving appointments.
-
-**Choose if:** You need to move and haul junk in the same trip, or you're managing a full property transition.
-
----
-
-## 4. Junk King - Best for Eco-Conscious Disposal
-
-**Best for:** Customers who want to maximize recycling and donation and minimize what goes to the landfill.
-
-**What sets them apart:** Junk King markets a 60%+ diversion rate from landfills, sorting loads for recycling and donation partners. For environmentally conscious customers in Hawaii, where landfill space is especially limited, this matters.
-
-**Services:** Residential and commercial junk removal, mattress recycling, e-waste, construction debris.
-
-**Coverage:** Honolulu metro area.
-
-**Limitations:** Eco-sorting can mean slightly longer job times. Availability on Oahu varies. Franchise pricing may run higher than local independents.
-
-**Choose if:** Keeping items out of the landfill is your top priority and you're willing to pay a bit more for verified diversion.
-
----
-
-## 5. City & County of Honolulu Bulky Item Pickup - Best Free Option
+## 3. City & County of Honolulu Bulky Item Pickup - Best Free Option
 
 **Best for:** Budget-conscious homeowners with a small number of bulky items and no time pressure.
 
@@ -266,8 +212,6 @@ We compared junk removal options available to Oahu residents based on five crite
 
 - **Choose ʻŌpala Kuleana if** you want a local company, competitive pricing, and island-wide coverage for most residential or commercial jobs.
 - **Choose 1-800-GOT-JUNK? if** you need same-day service or prefer online booking with guaranteed time slots.
-- **Choose College Hunks if** you're combining a move with a cleanout and want one company for both.
-- **Choose Junk King if** eco-friendly disposal is your top concern and you want verified diversion rates.
 - **Choose City Bulky Pickup if** you have 6 or fewer items, can wait for scheduling, and want to pay nothing.
 - **Avoid hiring unlicensed haulers** off social media or classified ads. Hawaii requires proper commercial hauling licenses, and unlicensed operators may dump illegally, which can result in fines traced back to you as the property owner.
 
