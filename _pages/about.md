@@ -1,9 +1,30 @@
 ---
 layout: page
-title: "About ʻŌpala Kuleana, Locally Owned Junk Removal, Oahu"
+title: "About Us - Hawaiian Owned Junk Removal"
 lead: Hawaiian owned, Oahu based, committed to serving our community with honest pricing and genuine Aloha.
-description: "ʻŌpala Kuleana is Oahu's Hawaiian-owned junk removal service. Since 2005, helping property managers, homeowners, and businesses get properties clean and ready. Free estimates, responsible disposal."
+description: "ʻŌpala Kuleana is Oahu's Hawaiian-owned junk removal service since 2005. Property cleanouts, estate clearing, responsible disposal. Free estimates."
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://opalakuleana.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "About Us",
+      "item": "https://opalakuleana.com/about/"
+    }
+  ]
+}
+</script>
 
 ## Our Story
 
@@ -20,6 +41,8 @@ The name says it all. *ʻŌpala* is Hawaiian for refuse or garbage. *Kuleana* me
 Introduce us to your problem and we'll remove it.
 
 We schedule a time to come on site and provide an estimate. Once we're there and you've introduced us to the problem, we take into consideration the truck space, labor required, and disposal fees needed to remove the problem from your premises and clean up the area. If you agree to accept the quote, you sign and pay by cash or credit. Once payment is confirmed, we remove the problem and clean the area. We like to leave the area better than we found it whenever possible.
+
+See our full [list of services](/services/) for everything we haul.
 
 ## What Happens After
 
@@ -47,7 +70,7 @@ Our drivers hold Type 3 and CDL licenses, and we handle every job with professio
 
 ## Our Service Area
 
-We serve all of Oahu - from Ewa Beach, Kapolei, and Makakilo to Honolulu, Waikiki, and everything in between. Windward side, North Shore, Central Oahu - if you're on the island, we come to you.
+We serve all of Oahu - from Ewa Beach, Kapolei, and Makakilo to Honolulu, Waikiki, and everything in between. Windward side, North Shore, Central Oahu - if you're on the island, we come to you. [Get a free estimate](/contact/) today.
 
 ## Ready to Work Together?
 
