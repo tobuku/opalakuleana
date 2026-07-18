@@ -70,7 +70,7 @@ date: 2026-07-13
 }
 </script>
 
-Junk removal pricing is one of those things nobody thinks about until they need it — and then they need to know fast. Whether you're clearing out a storage unit, dealing with a furniture upgrade, or cleaning up after a renovation, you want a straight answer on what it's going to cost.
+Junk removal pricing is one of those things nobody thinks about until they need it - and then they need to know fast. Whether you're clearing out a storage unit, dealing with a furniture upgrade, or cleaning up after a renovation, you want a straight answer on what it's going to cost.
 
 Here's what we see on the job every day across Oahu.
 
@@ -80,15 +80,15 @@ No two jobs are the same, and pricing reflects that. These are the main factors 
 
 ### Volume
 
-The single biggest driver of cost is how much stuff you have. Most junk removal companies price by how much space your items take up in the truck — measured in fractions of a truckload. A quarter load costs less than a half load, which costs less than a full truck.
+The single biggest driver of cost is how much stuff you have. Most junk removal companies price by how much space your items take up in the truck - measured in fractions of a truckload. A quarter load costs less than a half load, which costs less than a full truck.
 
 The challenge with volume is that it's hard to estimate over the phone. A pile of boxes might compress down to almost nothing, while a single sectional sofa can eat a quarter of a truck on its own.
 
 ### Item Type
 
-Not everything disposes the same way. Standard household furniture, cardboard, and general debris can go to the landfill in one stop. But mattresses, TVs, refrigerators, and other appliances require separate disposal routes — recycling centers, dedicated e-waste facilities, or special handling fees at the landfill. That adds time and cost.
+Not everything disposes the same way. Standard household furniture, cardboard, and general debris can go to the landfill in one stop. But mattresses, TVs, refrigerators, and other appliances require separate disposal routes - recycling centers, dedicated e-waste facilities, or special handling fees at the landfill. That adds time and cost.
 
-Items that contain hazardous materials — old paint, propane tanks, pool chemicals — typically cannot be picked up at all by standard junk removal services. You'd need to check with the City and County of Honolulu's hazardous waste drop-off schedule for those.
+Items that contain hazardous materials - old paint, propane tanks, pool chemicals - typically cannot be picked up at all by standard junk removal services. You'd need to check with the City and County of Honolulu's hazardous waste drop-off schedule for those.
 
 ### Access and Location
 
@@ -96,7 +96,7 @@ A single-story home with a clear path to the curb is fast and easy. A third-floo
 
 ### Disposal and Landfill Fees
 
-On Oahu, tipping fees at H-POWER and the Waimanalo Gulch Sanitary Landfill are factored into every load. These fees are set by the City, and they're not cheap. Any legitimate junk removal company on the island is paying them — the difference is whether that cost is already included in your quote or tacked on at the end as a separate line item.
+On Oahu, tipping fees at H-POWER and the Waimanalo Gulch Sanitary Landfill are factored into every load. These fees are set by the City, and they're not cheap. Any legitimate junk removal company on the island is paying them - the difference is whether that cost is already included in your quote or tacked on at the end as a separate line item.
 
 ---
 
@@ -130,7 +130,7 @@ Junk removal costs in most U.S. cities run roughly $100–$400 for a typical res
 
 **There's no cheap recycling arbitrage.** On the mainland, a company might offset disposal costs by reselling metal or electronics to nearby recyclers. On Oahu, the economics of that are much thinner. Shipping materials off-island rarely pencils out.
 
-**Labor costs reflect Hawaii's cost of living.** Paying a crew a fair wage here means reflecting real Hawaii living expenses — not mainland rates.
+**Labor costs reflect Hawaii's cost of living.** Paying a crew a fair wage here means reflecting real Hawaii living expenses - not mainland rates.
 
 None of this is an excuse for unreasonable pricing. It's context. A quote that seems high compared to what you saw on a national junk removal website is often just accurate for the island.
 
@@ -142,7 +142,7 @@ Junk removal companies use a few different structures. Knowing which model you'r
 
 **Volume-based pricing** is the most common. The crew estimates how much space your items will take in the truck, then quotes based on that fraction of a load. This model works well when you have a mix of furniture and general debris.
 
-**Per-item pricing** is straightforward but can add up fast. You pay a set rate for each piece — a couch, a refrigerator, a box spring. It's easy to understand but can cost more than volume pricing if you have a lot of items.
+**Per-item pricing** is straightforward but can add up fast. You pay a set rate for each piece - a couch, a refrigerator, a box spring. It's easy to understand but can cost more than volume pricing if you have a lot of items.
 
 **Hourly pricing** is less common in residential junk removal but shows up in some commercial or labor-only situations. The crew charges for time rather than volume. This can work in your favor if the job moves fast, but it introduces uncertainty if access is difficult.
 
@@ -195,11 +195,11 @@ There are legitimate reasons to haul your own junk, and there are situations whe
 **Hiring a pro makes sense when:**
 - You don't have a truck or the right vehicle
 - The items are heavy, bulky, or awkward to move safely
-- You have a deadline — a move-out date, an estate to settle, a renovation starting Monday
+- You have a deadline - a move-out date, an estate to settle, a renovation starting Monday
 - You have mattresses, appliances, or other items requiring special disposal
 - Your time is worth more than the difference in cost
 
-For many people in Honolulu, the combination of not having a truck, not having weekend hours free, and dealing with items that need special handling makes hiring a crew the practical choice — not just the convenient one.
+For many people in Honolulu, the combination of not having a truck, not having weekend hours free, and dealing with items that need special handling makes hiring a crew the practical choice - not just the convenient one.
 
 ---
 
@@ -251,4 +251,4 @@ For many people in Honolulu, the combination of not having a truck, not having w
 
 ---
 
-If you're ready to get a straight answer on what your specific job will cost, reach out to us directly. We cover all of Oahu — from Kapolei to Kaneohe, Aiea to Hawaii Kai. Call us at 808-536-6075 or visit our [contact page](/contact/) to request a free estimate. No obligation, no runaround. You can also browse our full list of [services](/services/) to see everything we handle.
+If you're ready to get a straight answer on what your specific job will cost, reach out to us directly. We cover all of Oahu - from Kapolei to Kaneohe, Aiea to Hawaii Kai. Call us at 808-536-6075 or visit our [contact page](/contact/) to request a free estimate. No obligation, no runaround. You can also browse our full list of [services](/services/) to see everything we handle.

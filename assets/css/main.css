@@ -1,5 +1,5 @@
 /* ==========================================
-   ŌPALA KULEANA — MAIN STYLESHEET
+   ŌPALA KULEANA - MAIN STYLESHEET
    Oahu Junk Removal | opalakuleana.com
    ========================================== */
 
@@ -7,7 +7,7 @@
    CUSTOM PROPERTIES
    ========================================== */
 :root {
-  /* Colors — Green Dominant / Black & White Contrast */
+  /* Colors - Green Dominant / Black & White Contrast */
   --c-primary:       #1a5c2a;
   --c-primary-light: #2e7d45;
   --c-primary-dark:  #0d3318;
@@ -2058,7 +2058,7 @@ textarea.form-control {
   user-select: none;
 }
 
-/* CTA banner logo overlay — pulsing glow effect */
+/* CTA banner logo overlay - pulsing glow effect */
 .cta-logo-glow {
   position: relative;
   display: inline-block;
@@ -2087,7 +2087,44 @@ textarea.form-control {
   border-radius: var(--r-lg);
 }
 
-/* Why Us section — ensure relative positioning for absolute children */
+/* ==========================================
+   PHOTO GALLERY
+   ========================================== */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 48px;
+}
+.gallery-item {
+  border-radius: var(--r-md);
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+}
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
+
+/* Why Us section - ensure relative positioning for absolute children */
 #about { position: relative; overflow: hidden; }
 #about .logo-bg-mark {
   position: absolute;

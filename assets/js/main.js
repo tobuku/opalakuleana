@@ -1,5 +1,5 @@
 /* ==========================================
-   ŌPALA KULEANA — MAIN JS
+   ŌPALA KULEANA - MAIN JS
    opalakuleana.com | Oahu Junk Removal
    ========================================== */
 
@@ -257,7 +257,7 @@
           overwrite: 'auto'
         });
       }
-      /* Only move card on x-axis — y is handled by the float loop */
+      /* Only move card on x-axis - y is handled by the float loop */
       if (heroCard) {
         gsap.to(heroCard, {
           x: dx * -16,
@@ -279,7 +279,7 @@
   }
 
   /* ------------------------------------------
-     SCROLL REVEALS — enhanced per section type
+     SCROLL REVEALS - enhanced per section type
   ------------------------------------------ */
   function initScrollReveals() {
 
@@ -298,7 +298,7 @@
       });
     });
 
-    /* .reveal-stagger containers — differentiated by class */
+    /* .reveal-stagger containers - differentiated by class */
     gsap.utils.toArray('.reveal-stagger').forEach(function (container) {
       var items = container.querySelectorAll('.stagger-item');
       if (!items.length) return;
@@ -392,7 +392,7 @@
       }
     });
 
-    /* Stat cards — pop-in with elastic */
+    /* Stat cards - pop-in with elastic */
     var statsGrid = document.querySelector('.stats-grid');
     if (statsGrid) {
       var statCards = statsGrid.querySelectorAll('.stat-card');
@@ -445,7 +445,7 @@
       });
     }
 
-    /* Logo background marks — slow fade + drift */
+    /* Logo background marks - slow fade + drift */
     gsap.utils.toArray('.logo-bg-mark').forEach(function (mark) {
       gsap.from(mark, {
         opacity: 0,

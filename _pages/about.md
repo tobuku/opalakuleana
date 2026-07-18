@@ -26,6 +26,8 @@ description: "ʻŌpala Kuleana is Oahu's Hawaiian-owned junk removal service sin
 }
 </script>
 
+<img src="/assets/images/opala-kuleana-truck-oahu.jpg" alt="ʻŌpala Kuleana junk removal truck serving Oahu" style="width:100%; border-radius:12px; margin-bottom:32px;" loading="lazy">
+
 ## Our Story
 
 Since 2005 we have worked with numerous property managers, homeowners, and businesses cleaning out properties and getting them sale-ready or rent-ready.
@@ -37,6 +39,8 @@ In late 2025, Hawaii experienced numerous storms culminating in a series of Kona
 The name says it all. *ʻŌpala* is Hawaiian for refuse or garbage. *Kuleana* means responsibility - the kind of obligation you feel toward something you care about. Putting them together reflects how we approach this work: responsible removal for the place we call home.
 
 ## What We Do
+
+<img src="/assets/images/crew-stacking-truck.jpg" alt="ʻŌpala Kuleana crew loading junk into truck on Oahu" style="width:100%; border-radius:12px; margin-bottom:24px;" loading="lazy">
 
 Introduce us to your problem and we'll remove it.
 
