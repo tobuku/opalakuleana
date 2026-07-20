@@ -832,6 +832,91 @@ button { font-family: var(--ff-sans); }
 
 .services-cta { text-align: center; }
 
+/* Service Blocks (homepage H2 grid) */
+.service-blocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-top: 48px;
+}
+
+.service-block {
+  padding: 32px;
+  background: var(--c-white);
+  border-radius: var(--r-md);
+  border: 1px solid var(--c-border);
+  transition: box-shadow 0.3s, border-color 0.3s;
+}
+
+.service-block:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--c-accent);
+}
+
+.service-block h2 {
+  font-size: clamp(1.1rem, 1.8vw, 1.35rem);
+  margin-bottom: 12px;
+}
+
+.service-block h2 a {
+  color: var(--c-primary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.service-block h2 a:hover {
+  color: var(--c-accent);
+}
+
+.service-block p {
+  font-size: 0.9rem;
+  color: var(--c-text-muted);
+  line-height: 1.65;
+}
+
+/* Service Learn More link (hub page) */
+.service-learn-more {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--c-accent);
+}
+
+.service-learn-more:hover {
+  color: var(--c-accent-dark);
+}
+
+/* Service page body */
+.page-body h2 {
+  font-size: clamp(1.25rem, 2vw, 1.6rem);
+  color: var(--c-primary);
+  margin: 40px 0 16px;
+}
+
+.page-body h3 {
+  font-size: clamp(1.05rem, 1.6vw, 1.25rem);
+  color: var(--c-text);
+  margin: 28px 0 12px;
+}
+
+.page-body ul {
+  list-style: disc;
+  padding-left: 24px;
+  margin: 16px 0;
+}
+
+.page-body ul li {
+  margin-bottom: 6px;
+  color: var(--c-text-muted);
+  line-height: 1.65;
+}
+
+.page-body p {
+  margin-bottom: 16px;
+  line-height: 1.72;
+}
+
 /* ==========================================
    WHY US
    ========================================== */
@@ -1911,6 +1996,8 @@ textarea.form-control {
   .nav-cta .btn.btn-sm { display: none; }
   .nav-phone { display: none; }
   .nav-hamburger { display: flex; }
+
+  .service-blocks { grid-template-columns: 1fr; }
 
   .hero-inner { grid-template-columns: 1fr; }
   .hero-card  { display: none; }
