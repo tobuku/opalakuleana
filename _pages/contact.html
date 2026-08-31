@@ -142,6 +142,29 @@ permalink: /contact/
           </div>
 
           <div class="form-group">
+            <label class="form-label">Preferred Contact Method</label>
+            <div style="display:flex; gap:24px; margin-top:6px;">
+              <label style="display:flex; align-items:center; gap:8px; cursor:pointer; font-size:0.95rem; color:var(--c-text);">
+                <input type="radio" name="preferred_contact" value="Phone" id="contact-phone" style="accent-color:var(--c-accent); width:18px; height:18px;"> Phone
+              </label>
+              <label style="display:flex; align-items:center; gap:8px; cursor:pointer; font-size:0.95rem; color:var(--c-text);">
+                <input type="radio" name="preferred_contact" value="Email" id="contact-email" checked style="accent-color:var(--c-accent); width:18px; height:18px;"> Email
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group" id="callback-time-group" style="display:none;">
+            <label class="form-label" for="callback-time">Best Time to Call</label>
+            <select class="form-control" id="callback-time" name="callback_time">
+              <option value="" disabled selected>Select a time...</option>
+              <option>Morning (8 AM - 12 PM)</option>
+              <option>Afternoon (12 PM - 3 PM)</option>
+              <option>Late Afternoon (3 PM - 5 PM)</option>
+              <option>No preference</option>
+            </select>
+          </div>
+
+          <div class="form-group">
             <label class="form-label" for="message">Describe What You Need Removed</label>
             <textarea class="form-control" id="message" name="message" placeholder="What items need to be hauled? Approximate volume? Any access notes? The more you tell us, the better we can prepare." rows="5"></textarea>
           </div>
@@ -158,3 +181,19 @@ permalink: /contact/
     </div>
   </div>
 </section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var phoneRadio = document.getElementById('contact-phone');
+  var emailRadio = document.getElementById('contact-email');
+  var callbackGroup = document.getElementById('callback-time-group');
+  if (phoneRadio && emailRadio && callbackGroup) {
+    phoneRadio.addEventListener('change', function() {
+      callbackGroup.style.display = this.checked ? '' : 'none';
+    });
+    emailRadio.addEventListener('change', function() {
+      callbackGroup.style.display = this.checked ? 'none' : '';
+    });
+  }
+});
+</script>
