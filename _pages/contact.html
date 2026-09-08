@@ -53,7 +53,7 @@ permalink: /contact/
             </div>
             <div class="contact-detail-text">
               <strong>Contact</strong>
-              <span>Use the form to reach us we respond within 24 hours, Monday–Friday.</span>
+              <span>Use the form to reach us we respond within 24 hours, Monday–Saturday.</span>
             </div>
           </li>
           <li>
@@ -96,6 +96,7 @@ permalink: /contact/
         <!-- SETUP: Go to formspree.io, create a free account, and replace FORM_ID_HERE with your form ID -->
         <form action="https://formspree.io/f/mzdyrkgd" method="POST" class="contact-form-el" novalidate>
           <input type="hidden" name="_subject" value="New Estimate Request ʻŌpala Kuleana">
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
 
           <div class="form-row">
             <div class="form-group">
@@ -110,7 +111,7 @@ permalink: /contact/
 
           <div class="form-group">
             <label class="form-label" for="email">Email Address <span aria-hidden="true" style="color:var(--c-accent)">*</span></label>
-            <input class="form-control" type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email">
+            <input class="form-control" type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email" pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$" title="Please enter a valid email address">
           </div>
 
           <div class="form-group">
@@ -174,7 +175,7 @@ permalink: /contact/
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
           </button>
 
-          <p class="form-note">We respond within 24 hours, Monday–Friday. No spam, no sharing your info ever.</p>
+          <p class="form-note">We respond within 24 hours, Monday–Saturday. No spam, no sharing your info ever.</p>
         </form>
       </div>
 
