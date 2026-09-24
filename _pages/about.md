@@ -26,7 +26,7 @@ description: "ʻŌpala Kuleana is Oahu's Hawaiian-owned junk removal service sin
 }
 </script>
 
-<img src="/assets/images/opala-kuleana-truck-oahu.jpg" alt="ʻŌpala Kuleana junk removal truck serving Oahu" style="width:100%; border-radius:12px; margin-bottom:32px;" loading="lazy">
+<img src="/assets/images/opala-kuleana-isuzu-npr.JPG" alt="ʻŌpala Kuleana Isuzu NPR junk removal truck serving Oahu" style="width:100%; border-radius:12px; margin-bottom:32px;" loading="lazy">
 
 ## Our Story
 
@@ -79,3 +79,5 @@ We serve all of Oahu - from Ewa Beach, Kapolei, and Makakilo to Honolulu, Waikik
 ## Ready to Work Together?
 
 [Get a Free Estimate](/contact/) - no pressure, no commitment. We'll come to you, get introduced to the problem, and give you a straight answer on the quote.
+
+<img src="/assets/images/opala-kuleana-truck-oahu.jpg" alt="ʻŌpala Kuleana Chevy Silverado junk removal truck on Oahu" style="width:100%; border-radius:12px; margin-top:32px;" loading="lazy">
