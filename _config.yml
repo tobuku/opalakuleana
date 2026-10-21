@@ -44,7 +44,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/images/ok-logo-flat.png
+      image: /assets/images/og-default.jpg
   - scope:
       path: ""
       type: "posts"
@@ -59,6 +59,8 @@ defaults:
 
 # SEO
 logo: /assets/images/ok-logo-flat.png
+twitter:
+  card: summary_large_image
 social:
   name: ʻŌpala Kuleana
   links:
