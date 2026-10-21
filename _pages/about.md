@@ -26,7 +26,10 @@ description: "ʻŌpala Kuleana is Oahu's Hawaiian-owned junk removal service sin
 }
 </script>
 
-<img src="/assets/images/opala-kuleana-isuzu-npr.JPG" alt="ʻŌpala Kuleana Isuzu NPR junk removal truck serving Oahu" style="width:100%; border-radius:12px; margin-bottom:32px;" loading="lazy">
+<picture>
+  <source srcset="/assets/images/opala-kuleana-isuzu-npr.webp" type="image/webp">
+  <img src="/assets/images/opala-kuleana-isuzu-npr.JPG" alt="ʻŌpala Kuleana Isuzu NPR junk removal truck serving Oahu" style="width:100%; border-radius:12px; margin-bottom:32px;" loading="lazy" width="1600" height="1072">
+</picture>
 
 ## Our Story
 
@@ -40,7 +43,7 @@ The name says it all. *ʻŌpala* is Hawaiian for refuse or garbage. *Kuleana* me
 
 ## What We Do
 
-<img src="/assets/images/crew-stacking-truck.jpg" alt="ʻŌpala Kuleana crew loading junk into truck on Oahu" style="width:100%; border-radius:12px; margin-bottom:24px;" loading="lazy">
+<img src="/assets/images/crew-stacking-truck.jpg" alt="ʻŌpala Kuleana crew loading junk into truck on Oahu" style="width:100%; border-radius:12px; margin-bottom:24px;" loading="lazy" width="900" height="1200">
 
 Introduce us to your problem and we'll remove it.
 
@@ -80,4 +83,4 @@ We serve all of Oahu - from Ewa Beach, Kapolei, and Makakilo to Honolulu, Waikik
 
 [Get a Free Estimate](/contact/) - no pressure, no commitment. We'll come to you, get introduced to the problem, and give you a straight answer on the quote.
 
-<img src="/assets/images/opala-kuleana-truck-oahu.jpg" alt="ʻŌpala Kuleana Chevy Silverado junk removal truck on Oahu" style="width:100%; border-radius:12px; margin-top:32px;" loading="lazy">
+<img src="/assets/images/opala-kuleana-truck-oahu.jpg" alt="ʻŌpala Kuleana Chevy Silverado junk removal truck on Oahu" style="width:100%; border-radius:12px; margin-top:32px;" loading="lazy" width="1200" height="501">
