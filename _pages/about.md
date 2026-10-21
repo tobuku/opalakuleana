@@ -39,7 +39,7 @@ In 2019, one of our founders lost all of their belongings in the Nanakuli brush 
 
 In late 2025, Hawaii experienced numerous storms culminating in a series of Kona low storms. Thousands of families were affected and left with cleaning up all of the aftermath. It was at that point where we knew we had to come up with a plan and take a leap. So our founders formed ʻŌpala Kuleana and Know Leap Strategies.
 
-The name says it all. *ʻŌpala* is Hawaiian for refuse or garbage. *Kuleana* means responsibility - the kind of obligation you feel toward something you care about. Putting them together reflects how we approach this work: responsible removal for the place we call home.
+The name says it all. *ʻŌpala* is Hawaiian for refuse or garbage. *Kuleana* means responsibility - the kind of obligation you feel toward something you care about. Putting them together reflects how we approach this work: responsible removal for the place we call home. You may know us from our trucks as **OK Junk Removal** — the "OK" is short for ʻŌpala Kuleana.
 
 ## What We Do
 
