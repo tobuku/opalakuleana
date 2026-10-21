@@ -6,7 +6,8 @@
 title: ʻŌpala Kuleana
 tagline: "Your ʻŌpala is Our Kuleana"
 description: Professional junk removal service in Oahu, Hawaii. We remove furniture, appliances, construction debris, and more. Free estimates. Serving Ewa Beach, Honolulu, Kapolei, and all of Oahu.
-author: ʻŌpala Kuleana
+# author omitted at site level — jekyll-seo-tag always outputs Person for author.
+# Posts define their own author in front matter. Organization identity comes from social block.
 email:
 url: "https://opalakuleana.com"
 baseurl: ""
@@ -56,6 +57,8 @@ defaults:
       type: "pages"
     values:
       layout: "page"
+      seo:
+        type: WebPage
 
 # SEO
 logo: /assets/images/ok-logo-flat.png
