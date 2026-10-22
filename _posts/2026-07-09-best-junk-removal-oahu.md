@@ -85,7 +85,7 @@ date: 2026-07-09
       "name": "How much does junk removal cost in Oahu in 2026?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Most Oahu junk removal companies charge by volume (how much truck space your items take up). Expect roughly $150-$400 for a small load and $400-$800+ for a full truck. Hawaii disposal fees are higher than the mainland due to limited landfill capacity. Always get a free on-site estimate before committing."
+        "text": "Most Oahu junk removal companies charge by volume — how much truck space your items take up. Hawaii disposal fees are higher than the mainland due to limited landfill capacity, so pricing reflects that. The best way to get an accurate number is a free on-site estimate where the crew sees the job in person."
       }
     },
     {
@@ -219,7 +219,7 @@ We compared junk removal options available to Oahu residents based on five crite
 
 **How much does junk removal cost in Oahu in 2026?**
 
-Most companies charge by volume. Expect roughly $150-$400 for a small load (a few items or a fraction of a truck) and $400-$800+ for a full truck load. Hawaii disposal fees are higher than the mainland due to limited landfill capacity and shipping costs for recycled materials. Always get a free on-site estimate before committing.
+Most companies charge by volume — how much truck space your items take up. Hawaii disposal fees are higher than the mainland due to limited landfill capacity and shipping costs for recycled materials. The best way to get an accurate number is a free on-site estimate where the crew sees the job in person. Avoid committing to a quote given over the phone without the company seeing the work first.
 
 **Is there free junk removal in Oahu?**
 
