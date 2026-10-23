@@ -2010,7 +2010,7 @@ textarea.form-control {
   .service-blocks { grid-template-columns: 1fr; }
 
   .hero-inner { grid-template-columns: 1fr; }
-  .hero-card  { display: none; }
+  .hero-card-col { display: none; }
 
 
   .process-steps {
