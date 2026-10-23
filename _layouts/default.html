@@ -29,6 +29,14 @@
 
   <!-- Main CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+
+  <!-- Google Preferred Sources button -->
+  <script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
+  <style>
+    .nav-pref-source { display: flex; align-items: center; }
+    @media (max-width: 1199px) { .nav-pref-source { display: none; } }
+    .nav-mobile-pref-source { display: flex; justify-content: center; }
+  </style>
 </head>
 <body>
 
@@ -50,6 +58,7 @@
       </ul>
 
       <div class="nav-cta">
+        <div class="nav-pref-source" google-add-preferred-source-btn></div>
         <a href="tel:8085366075" class="nav-phone">Ph. 808-536-6075</a>
         <a href="{{ site.baseurl }}/contact/" class="btn btn-primary btn-sm">Get Free Estimate</a>
         <button class="nav-hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-mobile">
@@ -69,6 +78,7 @@
     <a href="{{ site.baseurl }}/about/">About Us</a>
     <a href="{{ site.baseurl }}/contact/">Contact Us</a>
     <a href="{{ site.baseurl }}/resources/">Resources</a>
+    <div class="nav-mobile-pref-source" google-add-preferred-source-btn></div>
     <a href="tel:8085366075" class="btn btn-outline btn-lg" style="border-color:rgba(255,255,255,0.5); color:white;">Ph. 808-536-6075</a>
     <a href="{{ site.baseurl }}/contact/" class="btn btn-primary btn-lg">Get Free Estimate</a>
   </div>
