@@ -4,6 +4,7 @@ title: "Hawaii E-Waste Disposal: What Happens to Your Old Electronics"
 description: "Hawaii has strict e-waste disposal laws. Learn what qualifies as e-waste, how to dispose of electronics properly in Oahu, and why it matters for the island's environment."
 author: ʻŌpala Kuleana
 date: 2026-03-27
+image: /assets/images/ewaste-disposal-hawaii.jpg
 ---
 
 Hawaii has some of the strictest e-waste laws in the country and for good reason. Old electronics contain toxic materials including lead, mercury, cadmium, and beryllium. When improperly disposed of, these substances leach into soil and groundwater, creating environmental and health hazards. On an island like Oahu, with limited land and a fragile ecosystem, proper e-waste disposal isn't optional it's critical.

@@ -4,6 +4,7 @@ title: "How to Handle an Estate Cleanout in Oahu: A Practical Guide"
 description: "Facing an estate cleanout in Oahu? This practical guide walks you through what to expect, how to prepare, and how to get it done efficiently with professional help."
 author: ʻŌpala Kuleana
 date: 2026-03-27
+image: /assets/images/estate-cleanout-oahu-guide.jpg
 ---
 
 Estate cleanouts are among the most emotionally and logistically demanding tasks anyone can face. Whether you're dealing with the passing of a loved one, settling an estate for sale, or clearing a property after a long tenancy, the task of sorting and removing decades of accumulated belongings can feel overwhelming.

@@ -4,6 +4,7 @@ title: "How Much Does Junk Removal Cost in Oahu?"
 description: "Junk removal pricing in Oahu depends on volume, weight, and accessibility. Learn what factors affect your quote and how to get a free on-site estimate."
 author: "ʻŌpala Kuleana"
 date: 2026-07-13
+image: /assets/images/junk-removal-cost-oahu.jpg
 ---
 
 <script type="application/ld+json">

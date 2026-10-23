@@ -4,6 +4,7 @@ title: "Junk Removal in Oahu: What Every Homeowner Should Know"
 description: "A complete guide to junk removal in Oahu, Hawaii. Learn about costs, what to expect, and how to find a reliable local service for your home or business."
 author: ʻŌpala Kuleana
 date: 2026-03-27
+image: /assets/images/junk-removal-oahu-guide.jpg
 ---
 
 If you've been putting off clearing out that garage, back room, or backyard in Oahu, you're not alone. Life moves fast, items accumulate, and hauling it all away feels like a project that keeps getting pushed to next weekend. This guide covers everything you need to know before booking a junk removal service in Hawaii.
