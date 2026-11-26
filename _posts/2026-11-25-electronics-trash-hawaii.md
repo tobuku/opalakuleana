@@ -4,7 +4,7 @@ title: "Can You Throw Electronics in the Trash in Hawaii?"
 description: "No — most electronics cannot go in regular trash in Hawaii. Learn what the law says, where to drop off e-waste on Oahu, and when to call a removal service."
 author: ʻŌpala Kuleana
 date: 2026-11-25
-image: /assets/images/og-default.jpg
+image: /assets/images/old-electronics.JPG
 ---
 
 If you have an old TV, broken monitor, or a drawer full of dead printers and you live in Hawaii, you cannot just bag them up and put them on the curb. Hawaii law restricts how electronics are disposed of, and throwing e-waste in regular trash can result in fines. Here is what you need to know.
