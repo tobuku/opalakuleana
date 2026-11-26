@@ -1,0 +1,30 @@
+# Environment and credentials
+.env
+.env.*
+.gsc-credentials/
+credentials.json
+token.json
+*.pem
+*.key
+
+# Claude Code
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+Gemfile.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
