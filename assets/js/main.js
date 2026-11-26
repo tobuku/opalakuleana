@@ -96,6 +96,11 @@
     link.addEventListener('click', closeMenu);
   });
 
+  // Close on overlay background tap
+  if (mobileNav) mobileNav.addEventListener('click', function(e) {
+    if (e.target === mobileNav) closeMenu();
+  });
+
   /* ------------------------------------------
      GSAP ANIMATIONS
   ------------------------------------------ */
